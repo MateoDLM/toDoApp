@@ -35,20 +35,21 @@ El proyecto emplea las siguientes tecnologías y herramientas:
 1.  Crea una base de datos llamada `todo-app` en tu servidor local.
 2.  Configura tus credenciales de base de datos en las variables de entorno o directamente en el archivo `src/main/resources/application.properties`:
 
-```properties
+```
 spring.datasource.url=jdbc:mysql://localhost:3306/todo-app
 spring.datasource.username=TU_USUARIO
 spring.datasource.password=TU_CONTRASEÑA
+```
 
 ### Ejecución
 
 Puedes ejecutar la aplicación utilizando el Maven Wrapper incluido:
 
 En Windows:
-```./mvnw.cmd spring-boot:run
+```./mvnw.cmd spring-boot:run```
 
 En Linux/macOS:
-./mvnw spring-boot:run
+```./mvnw spring-boot:run```
 
 Una vez iniciada, accede a la aplicación en tu navegador a través de: http://localhost:8080/tasks.
 
